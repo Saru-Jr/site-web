@@ -1,2 +1,2 @@
-# site-web
+# Java Project
 assignment web desing
