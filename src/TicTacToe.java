@@ -95,7 +95,7 @@ public class TicTacToe {
         }
         
         Xscore.setBackground(new Color(12,30,62));
-        Xscore.setForeground(new Color(252, 15, 245));
+        Xscore.setForeground(new Color(255, 0, 0));
         Xscore.setFont(new Font("MV BOLI", Font.PLAIN, 20));
         Xscore.setText("Player X score : " + playerXScore );
         Xscore.setOpaque(true);
@@ -104,7 +104,7 @@ public class TicTacToe {
         scorePanel.add(Xscore);
 
         Oscore.setBackground(new Color(12,30,62));
-        Oscore.setForeground(new Color(252, 15, 245));
+        Oscore.setForeground(new Color(0, 43, 255));
         Oscore.setFont(new Font("MV BOLI", Font.PLAIN, 20));
         Oscore.setText("Player O score : " + playerOScore );
         Oscore.setOpaque(true);
